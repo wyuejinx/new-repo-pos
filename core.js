@@ -1,6 +1,7 @@
 /* core.js — pure business logic (no DOM, no storage). Unit-tested in tests/core.test.js.
  * All money is handled as integer centavos to avoid floating-point errors. */
 //practice lang po! sa core.js
+//new changes in core.js
 (function (root, factory) {
   if (typeof module === 'object' && module.exports) module.exports = factory();
   else root.Core = factory();
